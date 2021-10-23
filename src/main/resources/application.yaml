@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: GraphQl Demo
+
+graphql:
+  servlet:
+    max-query-depth: 100
+  playground:
+    headers:
+      Authorization: Bearer TOKEN
+    tabs:
+      - name: Bank Account sample query
+        query: classpath:playground/bank_account.graphql
+        variables: classpath:playground/bank_account_variables.graphql
+
+
