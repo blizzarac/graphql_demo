@@ -1,0 +1,12 @@
+{
+  "data": {
+	"bankAccount": {
+	  "id": "9fffecc9-df83-4e4a-a047-d891090dd69b",
+	  "client": {
+		"firstName": "Alex",
+		"lastName": "Stolz"
+	  },
+	  "currency": "EUR"
+	}
+  }
+}
